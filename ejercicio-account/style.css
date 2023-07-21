@@ -1,0 +1,93 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: 0;    
+}
+
+body{
+background-color:#e7e9f2;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.card{
+background-color: white;
+width: 450px;
+text-align: center;
+border-radius: 20px;
+box-shadow: 0px 0px 37px -8px rgba(0,0,0,0.75);
+}
+/* contenedor general "card" */
+
+img{
+width: 100px;
+padding-top: 70px;
+}
+/* contendor de imgen */
+
+h1{
+padding:20px 0 15px 0;
+font-family: 'Noto Sans JP', sans-serif;
+font-size: 20px;
+}
+
+/* contenedor titulo */
+
+.email1{
+font-family: 'Noto Sans JP', sans-serif;
+font-weight: bold;
+font-size: 15px;
+padding-bottom: 40px;
+}
+/* contendor primer email */
+
+p{
+font-family: 'Noto Sans JP', sans-serif;
+padding: 0 70px 0;
+font-size: 15px;
+}
+/* contenedor parrafo */
+
+.recovery{
+font-family: 'Noto Sans JP', sans-serif;
+font-size: 18px;
+padding-top:80px ;    
+}
+
+/* contenedor recovery */
+
+.email2{
+font-family: 'Noto Sans JP', sans-serif;
+font-weight: 400;
+font-size: 15px; 
+padding: 15px 0 15px 0;   
+}
+/* contendedor email-2 */
+
+.buttons{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    gap: 50px;
+}
+/* contenedor buttons */
+
+button{
+width: 150px;   
+justify-content: center;
+padding:8px 0;
+font-family: 'Noto Sans JP', sans-serif;
+border-radius: 20px;
+border: none;
+cursor: pointer;
+
+}
+/* config de botones */
+
+.confirm{
+background-color:#242e4c ;
+color: white;
+margin-bottom: 30px;
+}
